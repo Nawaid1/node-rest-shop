@@ -212,8 +212,8 @@
             name:fieldName,
             price: fieldPrice
         }
-        // 'url' would be your endpoint of API
-        // 'data' is a json object which you need to send to API
+        // 'url' endpoint of API
+        // 'data' is a json object to send to API
         //createData("http://localhost/", data)
         createData("http://localhost:3002/products", data)
             .then(response => response.json())
